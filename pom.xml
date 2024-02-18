@@ -6,25 +6,18 @@
 
     <groupId>com.jpmc.soccer.teams.creator</groupId>
     <artifactId>SoccerTeamCreator</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <lombok.version>1.18.30</lombok.version>
         <opencsv.version>5.9</opencsv.version>
         <jcommander.version>1.83</jcommander.version>
     </properties>
 
     <dependencies>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
-        </dependency>
 
         <dependency>
             <groupId>com.opencsv</groupId>
